@@ -25,7 +25,7 @@ dependencies:
   flutter_inappwebview_ios: ^1.2.0
   flutter_inappwebview_macos: ^1.2.0
   flutter_inappwebview_web: ^1.2.0
-  flutter_inappwebview_windows: ^0.7.0
+  flutter_inappwebview_windows: ^0.6.0
 
 dev_dependencies:
   flutter_test:
