@@ -208,7 +208,7 @@ public class InAppWebViewChromeClient extends WebChromeClient implements PluginR
     ((FrameLayout) decorView).addView(this.mCustomView, FULLSCREEN_LAYOUT_PARAMS);
 
     Map<String, Object> obj = new HashMap<>();
-    channel.invokeMethod("onEnterFullscreen", obj);*/
+    channel.invokeMethod("onEnterFullscreen", obj);
     
     if (inAppWebView != null) {
       WebViewChannelDelegate eventWebViewChannelDelegate = inAppWebView.channelDelegate;
